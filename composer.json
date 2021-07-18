@@ -1,0 +1,25 @@
+{
+    "name": "juangabriel.noe/covid_vaccine",
+    "description": "Automate process of getting an appointment for vaccionation in Spain",
+    "require": {
+        "symfony/dom-crawler": "^5.3",
+        "symfony/http-client": "^5.3",
+        "symfony/serializer": "^5.3",
+        "symfony/property-access": "^5.3",
+        "react/event-loop": "^1.2"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    },
+    "authors": [
+        {
+            "name": "Gabriel Noe",
+            "email": "juangabrielnoe@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Covid19\\Vaccine\\": "src/"
+        }
+    }
+}
