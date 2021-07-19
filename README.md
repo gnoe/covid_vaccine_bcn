@@ -32,7 +32,7 @@ In order to run this project, you need PHP > 7 and Composer, once you've downloa
 
 # Execution
 
-Now that we have everything run the script bin/vaccine.php
+Now that we have everything, we are ready to run the script bin/vaccine.php
 ```sh
 php bin/vaccine.php
 ```
