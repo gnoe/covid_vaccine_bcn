@@ -8,7 +8,7 @@ namespace Covid19\Vaccine\Service;
 use Covid19\Vaccine\Appointment;
 use Covid19\Vaccine\CatSalutClient;
 use Covid19\Vaccine\Center;
-use Covid19\Vaccine\NoCenterFoundException;
+use Covid19\Vaccine\Exception\NoCenterFoundException;
 use Covid19\Vaccine\User;
 
 class AppointmentFinder

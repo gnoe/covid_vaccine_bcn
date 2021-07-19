@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace Covid19\Vaccine;
 
+use Covid19\Vaccine\Exception\ConfirmDateException;
+use Covid19\Vaccine\Exception\NoCenterFoundException;
+use Covid19\Vaccine\Exception\SelectCenterException;
 use Symfony\Component\HttpClient\HttpClient;
 use Symfony\Component\Serializer\SerializerInterface;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
