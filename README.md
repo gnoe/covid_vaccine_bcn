@@ -1,5 +1,5 @@
 # covid_vaccine_bcn
-PHP CLI project to get an appointment from https://vacunacovid.catsalut.gencat.ca
+PHP CLI project to get an appointment from https://citavacunacovid19.catsalut.gencat.cat/Vacunacio_Covid/Vacunacio/VacunacioCovidReserva.aspx
 
 # Installation
 In order to run this project, you need PHP > 7 and Composer, once you've downloaded the project you can execute
@@ -8,7 +8,7 @@ In order to run this project, you need PHP > 7 and Composer, once you've downloa
 ```
 
 # Steps
-* Go to https://vacunacovid.catsalut.gencat.ca
+* Go to https://citavacunacovid19.catsalut.gencat.cat/Vacunacio_Covid/Vacunacio/VacunacioCovidReserva.aspx
 * Open your dev tools (right click on the page -> Inspect) and go to the Network tab and select only XHR
 * Fill the form with your data
 * Request and enter the SMS code
